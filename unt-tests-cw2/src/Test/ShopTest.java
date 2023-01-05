@@ -261,8 +261,6 @@ public class ShopTest {
         cart.addProductToCartByID(2); // 250
         // Assert (Проверка утверждения)
         assertThat(cart.getTotalPrice()).isEqualTo(500);
-
-
     }
 
     /**
@@ -287,6 +285,4 @@ public class ShopTest {
         // Assert (Проверка утверждения)
         assertThat(cart.getTotalPrice()).isEqualTo(0);
     }
-
-
 }
